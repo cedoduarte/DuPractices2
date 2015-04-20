@@ -83,7 +83,7 @@ int main(int argc, char **argv)
     } while (res == 'S' || res == 's');
     finalTareas->siguiente = NULL;
 
-    F = fopen("C:/users/cedo/desktop/agenda.txt", "w");
+    F = fopen("agenda.txt", "w");
     if (F == NULL) {
         printf("Error de fichero\n");
         return 3;
